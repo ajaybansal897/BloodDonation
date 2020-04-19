@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Booking";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <section class="main_slider_area">
+        <div class="container" style="min-height: 40vh; padding-top: 10vh">
+            <div class="row">
+                <div class="col-md-5 mt-5 mb-5">
+                    <h1 style="line-height: 70px; font-size: 52px">Booking</h1>
+                </div>
+                <div class="col-md-6 offset-md-1">
+                    <img src="~/img/banner/blood.png" class="img-fluid" style="max-height:200px" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="feature_area">
+        <div class="container">
+            <div class="c_title">
+                <img src="img/icon/title-icon.png" alt="">
+                <h6>Review Your Booking</h6>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card bg-success mt-4 mb-5">
+                        <div class="card-body text-white text-center">
+                            <h2><i class="fa fa-check-square-o"></i> &nbsp;Booking Submitted!</h2>
+                            <p class="mt-4">Your booking has been submitted successfully. <br />Thanks for registering with us.</p>
+                            <h4>Your booking reference number is: # @ViewBag.refer</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+

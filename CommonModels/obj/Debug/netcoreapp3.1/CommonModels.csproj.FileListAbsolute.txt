@@ -1,0 +1,9 @@
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\CommonModels\bin\Debug\netcoreapp3.1\CommonModels.deps.json
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\CommonModels\bin\Debug\netcoreapp3.1\CommonModels.dll
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\CommonModels\bin\Debug\netcoreapp3.1\CommonModels.pdb
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\CommonModels\obj\Debug\netcoreapp3.1\CommonModels.csproj.CoreCompileInputs.cache
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\CommonModels\obj\Debug\netcoreapp3.1\CommonModels.AssemblyInfoInputs.cache
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\CommonModels\obj\Debug\netcoreapp3.1\CommonModels.AssemblyInfo.cs
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\CommonModels\obj\Debug\netcoreapp3.1\CommonModels.dll
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\CommonModels\obj\Debug\netcoreapp3.1\CommonModels.pdb
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\CommonModels\obj\Debug\netcoreapp3.1\CommonModels.csprojAssemblyReference.cache

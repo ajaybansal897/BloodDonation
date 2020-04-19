@@ -1,0 +1,74 @@
+﻿@model IEnumerable<CommonModels.Centre>
+
+@{
+    ViewData["Title"] = "Select Center";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var today = DateTime.Today.ToString("yyyy-MM-ddThh:mm").Replace('.',':');
+}
+
+    <section class="main_slider_area">
+        <div class="container" style="min-height: 40vh; padding-top: 10vh">
+            <div class="row">
+                <div class="col-md-5 mt-5 mb-5">
+                    <h1 style="line-height: 70px; font-size: 52px">Center & Timing</h1>
+                </div>
+                <div class="col-md-6 offset-md-1">
+                    <img src="~/img/banner/blood.png" class="img-fluid" style="max-height:200px" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature_area">
+        <div class="container">
+            <div class="c_title">
+                <img src="img/icon/title-icon.png" alt="">
+                <h6>Select Center & Timing Slot</h6>
+            </div>
+            <form asp-action="Review">
+                <div class="row">
+                    <div class="col-md-8">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        S.No.
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Address)
+                                    </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <input name="center_id" type="radio" value="@item.Id" class="form-control" required />
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Address)
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Select Date Time:</label>
+                            <input class="form-control" type="datetime-local" id="timing" name="timing" min="@today" required />
+                            <span class="text-danger field-validation-valid"></span>
+                        </div>
+                        <div class="col-12 text-center mt-4">
+                            <input type="submit" value="Review" class="btn btn-success btn-lg" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+            
+            

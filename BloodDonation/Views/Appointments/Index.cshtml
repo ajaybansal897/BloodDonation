@@ -1,0 +1,102 @@
+﻿@model IEnumerable<CommonModels.Booking>
+
+@{
+    ViewData["Title"] = "Appointments";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <section class="main_slider_area">
+        <div class="container" style="min-height: 40vh; padding-top: 10vh">
+            <div class="row">
+                <div class="col-md-5 mt-5 mb-5">
+                    <h1 style="line-height: 70px; font-size: 52px">Appointments</h1>
+                </div>
+                <div class="col-md-6 offset-md-1">
+                    <img src="~/img/banner/blood.png" class="img-fluid" style="max-height:200px" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature_area">
+        <div class="container">
+            <div class="c_title">
+                <img src="~/img/icon/title-icon.png" alt="">
+                <h6>All Appointments</h6>
+            </div>
+           
+            <form asp-action="Search" method="get">
+                <div class="row mb-4">
+                    <div class="col-md-5 offset-md-6">
+                        <input type="text" class="form-control" value="@ViewBag.refer" name="refer" required placeholder="Search by Booking Reference Number" />
+                    </div>
+                    <div class="col-md-1">
+                        <input type="submit" class="ml-1 btn btn-success" value="Search" />
+                    </div>
+                </div>
+            </form>
+
+
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Id)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Timing)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Center_Address)
+                                </th>
+                                <th>
+                                    Donar Name
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model.Count() == 0)
+                            {
+                                <tr>
+                                    <td colspan="4" class="text-center">
+                                        <h5>No bookings available</h5>
+                                    </td>
+                                </tr>
+                            }
+                            else
+                            {
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Id)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Timing)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Center_Address)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.First_Name)
+                                            @Html.DisplayFor(modelItem => item.Last_Name)
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+
+                    @if (ViewBag.refer != null)
+                    {
+                        <a asp-action="Index" class="btn btn-primary"> Back to Appointments</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+            
+        

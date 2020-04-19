@@ -1,0 +1,12 @@
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.deps.json
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\DataAccessLayer\bin\Debug\netcoreapp3.1\CommonModels.dll
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\DataAccessLayer\bin\Debug\netcoreapp3.1\CommonModels.pdb
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CopyComplete
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\Er.Navjot\Documents\Visual Studio 2019\BloodDonation\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.pdb

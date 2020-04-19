@@ -1,0 +1,373 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\MyUnitTest\\MyUnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\BloodDonation\\BloodDonation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\BloodDonation\\BloodDonation.csproj",
+        "projectName": "BloodDonation",
+        "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\BloodDonation\\BloodDonation.csproj",
+        "packagesPath": "C:\\Users\\Er.Navjot\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\BloodDonation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Er.Navjot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\ClassLibrary\\ClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\ClassLibrary\\ClassLibrary.csproj"
+              },
+              "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\CommonModels\\CommonModels.csproj": {
+                "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\CommonModels\\CommonModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\ClassLibrary\\ClassLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\ClassLibrary\\ClassLibrary.csproj",
+        "projectName": "ClassLibrary",
+        "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\ClassLibrary\\ClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\Er.Navjot\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\ClassLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Er.Navjot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\CommonModels\\CommonModels.csproj": {
+                "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\CommonModels\\CommonModels.csproj"
+              },
+              "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\CommonModels\\CommonModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\CommonModels\\CommonModels.csproj",
+        "projectName": "CommonModels",
+        "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\CommonModels\\CommonModels.csproj",
+        "packagesPath": "C:\\Users\\Er.Navjot\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\CommonModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Er.Navjot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Er.Navjot\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Er.Navjot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\CommonModels\\CommonModels.csproj": {
+                "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\CommonModels\\CommonModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\MyUnitTest\\MyUnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\MyUnitTest\\MyUnitTest.csproj",
+        "projectName": "MyUnitTest",
+        "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\MyUnitTest\\MyUnitTest.csproj",
+        "packagesPath": "C:\\Users\\Er.Navjot\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\MyUnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Er.Navjot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\BloodDonation\\BloodDonation.csproj": {
+                "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\BloodDonation\\BloodDonation.csproj"
+              },
+              "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\ClassLibrary\\ClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\ClassLibrary\\ClassLibrary.csproj"
+              },
+              "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\CommonModels\\CommonModels.csproj": {
+                "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\CommonModels\\CommonModels.csproj"
+              },
+              "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Er.Navjot\\Documents\\Visual Studio 2019\\BloodDonation\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

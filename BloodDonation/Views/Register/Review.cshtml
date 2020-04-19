@@ -1,0 +1,60 @@
+﻿@model CommonModels.User
+
+@{
+    ViewData["Title"] = "Review";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <section class="main_slider_area">
+        <div class="container" style="min-height: 40vh; padding-top: 10vh">
+            <div class="row">
+                <div class="col-md-5 mt-5 mb-5">
+                    <h1 style="line-height: 70px; font-size: 52px">Review</h1>
+                </div>
+                <div class="col-md-6 offset-md-1">
+                    <img src="~/img/banner/blood.png" class="img-fluid" style="max-height:200px" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="feature_area">
+        <div class="container">
+            <div class="c_title">
+                <img src="~/img/icon/title-icon.png" alt="">
+                <h6>Review Your Booking</h6>
+            </div>
+            <form asp-action="Booking">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="card bg-light mt-2 mb-5">
+                            <div class="card-body">
+                                <h4 class="text-center">Summary</h4>
+                                <ul>
+                                    <li>Name: @Model.First_Name @Model.Last_Name</li>
+                                    <li>Address: @Model.Address</li>
+                                    <li>Center: @ViewBag.Center</li>
+                                    <li>Date & Time: @ViewBag.Timing</li>
+                                </ul>
+                                <input type="hidden" value="@Model.Id" name="user_id" />
+                                <input type="hidden" value="@ViewBag.Center_id" name="center_id" />
+                                <input type="hidden" value="@ViewBag.Timing" name="timing" />
+                            </div>
+                            <div class="card-footer text-center">
+                                <a class="btn btn-primary mr-3" asp-action="SelectCenter">Back</a>
+                                <input type="submit" class="btn btn-success ml-3" value="Book Now" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+            
+            
+
+            @section Scripts {
+                @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+            }
